@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+.continer {
+    background: black;
+    width: 37%;
+    height: 88vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding: 32px;
+    border-radius: 10px;
+}
+.continer h2 {
+    text-align: center;
+    color: yellow;
+}
+.underline {
+    width: 73%;
+    height: 3px;
+    background: yellow;
+    margin-left: 14%;
+}
+.continer label {
+    font-size: 18px;
+    margin: 17px;
+    color: white;
+}
+.continer input[type="text"] {
+    width: 90%;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 16px 17px;
+    padding: 10px;
+    background: #26272B;
+    color: white;
+}
+.continer input[type="number"] {
+    width: 90%;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 16px 17px;
+    padding: 10px;
+    background: #26272B;
+    color: white;
+}
+.continer input[type="submit"] {
+    width: 30%;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    background: yellow;
+    margin: 25px 143px;
+    cursor: pointer;
+}
+
+                    /*table section css start*/
+h1.pgTitle {
+    text-align: center;
+    color: #009897;
+    text-decoration: underline;
+    margin: 30px;
+}
+button.btn{
+    float: right;
+    padding: 9px;
+    font-family: arial black;
+    background: #009897;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 12px;
+    margin-top: -72px;
+    cursor: pointer;
+}
+.content-table {
+    width: 80%;
+    margin-left: 10%;
+    border-collapse: collapse;
+}
+.content-table th {
+    background: #009897;
+    padding: 10px;
+    color: white;
+}
+.content-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+.content-table tbody tr:nth-of-type(even){
+    background: #ddd;
+}
+.content-table tbody td {
+    padding: 10px;
+    text-align: center;
+}
+button {
+    width: 61px;
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+                    /*table section css end*/
